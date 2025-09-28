@@ -30,3 +30,7 @@ theme = "PaperMod"
 
   [params.cover]
     linkFullImages = true
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
