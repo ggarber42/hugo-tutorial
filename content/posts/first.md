@@ -1,6 +1,6 @@
 +++
 date = '2025-09-28T13:41:41-03:00'
-draft = true
+draft = false
 title = 'First'
 tags = ["html", "css"]
 categories = ["tech"]
