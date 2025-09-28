@@ -1,0 +1,32 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = "PaperMod"
+
+
+[[menu.main]]
+  identifier = "categories"
+  name       = "Categories"
+  url        = "/categories/"
+  weight     = 10
+
+[[menu.main]]
+  identifier = "tags"
+  name       = "Tags"
+  url        = "/tags/"
+  weight     = 20
+
+
+[[menu.main]]
+  identifier = "archives"
+  name       = "Archives"
+  url        = "/archives/"
+  weight     = 30
+
+[params]
+  ShowBreadCrumbs = true
+  ShowReadingTime = true
+  ShowShareButtons = true
+
+  [params.cover]
+    linkFullImages = true
